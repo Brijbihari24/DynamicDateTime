@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.pl-2{
+  padding-left: 2px;
+}
+
+.con{
+  background: #000;
+}
+
+.mr-3{
+  margin-right: 3px;
+}
+.heading{
+  color: #FED54A ;
+  font-family: 'Dancing Script', cursive;
+}
+.para{
+  font-family: 'Dancing Script', cursive;
+  color: #FF9347;
+  font-size: 20px;
+}
+.Greeting{
+  color: #1B98F5;
+  font-family: 'Dancing Script', cursive;
+  border: 2px solid #FF6263;
+  border-radius: 8px;
+  width: 400px;
+  height: 45px;
+  padding-top: 10px;
+}
+.flx{
+  display: flex;
+  justify-content: center;
 }
